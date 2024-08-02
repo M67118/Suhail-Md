@@ -18,15 +18,15 @@ global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9NYStK5cDDhvhi9t0a";
+global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9NYStK5cDDhvhi9t0a" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ" 
+global.caption = process.env.CAPTION || global.caption || "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦🅇⃠⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣²²¹-ᴍᴅ" 
 
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "22362451835";
 
 
 
@@ -37,7 +37,7 @@ global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not resp
 global.gdbye = process.env.GOODBYE || process.env.CAN_GOODBYE || "false"; 
 global.wlcm  = process.env.WELCOME || process.env.CAN_WELCOME || "false";  // Make it "false" for disable WELCOME 
 
-global.warncount = process.env.WARN_COUNT || 3
+global.warncount = process.env.WARN_COUNT || 0
 global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
@@ -47,14 +47,14 @@ global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'avail
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
-global.readcmds = process.env.READ_COMMAND || "false"
+global.readcmds = process.env.READ_COMMAND || "true"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "22362451835,923xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
-global.save_status = process.env.AUTO_SAVE_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
+global.save_status = process.env.AUTO_SAVE_STATUS || "true"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
 
@@ -74,10 +74,10 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.8",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
+  author : process.env.PACK_AUTHER|| "+²²³⁶²⁴⁵¹⁸³⁵",
+  packname: process.env.PACK_NAME || "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦🅇⃠⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣+²²³⁶²⁴⁵¹⁸³⁵",
   botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "Suhail",
+  ownername:process.env.OWNER_NAME|| "✰⃞𝕜𝕒𝕜𝕦𝕫𝕦🅇⃠⁩☬☬⃢⃟𝙃𝙞𝙙𝙖𝙣",
 
 
   errorChat : process.env.ERROR_CHAT || "",
